@@ -1,0 +1,28 @@
+¿Qué diferencias y semejanzas hay entre Java y JavaScript?
+- semejanzas: el nombre
+- diferencias: todo lo demas
+
+¿Qué métodos tiene el objeto Date? (Menciona al menos 5*)
+- now()
+- parse()
+- getYear()
+- setTime()
+- UTC()
+
+¿Qué métodos tienen los arreglos? (Menciona al menos 5*)
+- join()
+- splice()
+- push()
+- indexOf()
+- replace()
+
+¿Cómo se declara una variable con alcance local dentro de una función?
+- var x = yadayadayada;
+
+¿Qué implicaciones tiene utilizar variables globales dentro de funciones?
+- la funcion tiene dependencia externa mayor
+- es malo para la seguridad
+- usarlas le da mas flexibilidad al programador
+
+¿Qué método de String se puede utilizar para buscar patrones con expresiones regulares?¿Para qué podrías utilizar esto en una aplicación web?
+- martchALL() se podria usar para buscar por semejanzas en un archivo de HTML5 y luego cambiarlo de forma dinamica
