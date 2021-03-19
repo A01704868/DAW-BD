@@ -1,0 +1,8 @@
+¿Qué relación tienen con las tablas de la base de datos? (checa su contenido)
+Las columnas de los archivos csv corresponden con los atributos de las entidades
+
+¿Qué relación tiene el contenido de este archivo (materiales.sql) con el formato en que se encuentran los datos en el archivo materiales.csv?
+El archivo sql especifica que los terminadores del campo es una comma. Lo cual es apropiado para un archivo de "comma seperated values".
+
+¿Qué sucedió?
+Ya se trasladaron todos los datos del archivo csv a la tabla de datos
