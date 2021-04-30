@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('includes/head.ejs')%>
+    <title>Lab 6</title>
+    <script defer src="ventas.js"></script>
+</head>
+<body>
+    <h3>Orden a Granel</h3>
+    <ul>
+        <li>Tacos de Pastor: 10 pesos por unidad</li>
+        <li>Tamales de Pollo: 20 pesos por unidad</li>
+        <li>Barbacoa: 50 pesos por medio kilo</li>
+    </ul>
+    <form id="form" action="" method="GET">
+        <label for="tacos">Tacos de Pastor</label>
+        <input id="tacos" type="number" min="1" max ="10">
+
+        <label for="tamales">Tamales de Pollo</label>
+        <input id="tamales" type="number" min="1" max ="10">
+        
+        <label for="barbacoa">Barbacoa</label>
+        <select id="barbacoa">
+            <option value="1"> 1/2 kilo</option>
+            <option value="2"> 1 kilo</option>
+            <option value="3">3/2 kilos</option>
+            <option value="4">2 kilos</option>
+        </select>
+        <div id="precioTotal"></div>
+        <div id="iva"></div>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+<%- include('includes/footer.ejs')%>
+</html>
