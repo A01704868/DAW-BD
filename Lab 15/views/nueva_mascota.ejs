@@ -1,0 +1,15 @@
+<%- include('includes/head.ejs')%>
+<body>
+    <div class="container">
+        <h1>Nueva Masctota</h1>
+        <form action ="nueva-mascota" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre">
+
+            <label for="descripcion">Descripcion</label>
+            <input type="text" name="descripcion">
+            <input type="submit" name="enviar" value="adoptar">
+        </form>
+    </div>
+</body>
+<%- include('includes/footer.ejs')%>

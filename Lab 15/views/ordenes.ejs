@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('includes/head.ejs')%>
+  <title>Ordenes</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="/ordenes" class="brand-logo center">Lista de Ordenes</a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="/ordenes/nueva-orden">Nueva Orden</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <h1>Nuestras Ordenes</h1>
+          <div class="row">
+                <%- include('includes/tarjeta_orden.ejs')%>
+            </div>
+    </div>
+</body>
+<%- include('includes/footer.ejs')%>
+</html>
