@@ -1,0 +1,15 @@
+<%- include('includes/head.ejs')%>
+<body>
+    <div class="container">
+        <h1>Update Orden</h1>
+        <form action ="update-orden" method="POST">
+            <label for="nombre">id</label>
+            <input type="number" name="id" required>
+
+            <label for="cantidad">Cantidad</label>
+            <input type="number" name="cantidad" min="0" max="10" required>
+            <input type="submit" name="enviar" value="ordenar">
+        </form>
+    </div>
+</body>
+<%- include('includes/footer.ejs')%>
