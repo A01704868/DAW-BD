@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<%- include('includes/head.ejs')%>
+<body>
+    <%- include('includes/navbar.ejs')%>
+    <div class="container">
+        <h1><%=titulo%></h1>
+        <form action ="login" method="POST">
+
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" name="username" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" required>
+
+            <input type="submit" name="enviar" value="Entrar">
+        </form>
+    </div>
+</body>
+<%- include('includes/footer.ejs')%>
+</html>
