@@ -1,2 +1,3 @@
 # DAW-BD
-Repositorio principal del bloque 1
+Repositorio para guardar todos los ejercicios de la las materias de Desarrollo de Applicaciones Web y de Bases de Datos
+
